@@ -1,0 +1,96 @@
+* ,
+*::after,
+*::before {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6;
+    background-color:#222831 ;
+    color: #ddd;
+}
+.title {
+    color: rgb(46, 215, 245);
+}
+body {
+    font-size: 1.6rem;
+}
+.header {
+    font-size: 2.4rem;
+    border-bottom:2px solid #ddd;
+}
+h1 {
+    line-height:1.2 ;
+}
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}
+header {
+    padding: 3rem;
+    background-color:#253f66 ;
+    text-align: center;
+}
+main {
+    margin-top: 3rem;
+    text-align: center;
+}
+.scoreboard {
+    font-size: 4rem;
+}
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2.4rem;
+}
+.score-heading{
+    text-shadow:3px 3px 3px rgb(46, 215, 245) ;
+}
+.player-section {
+    margin-right: 10rem;
+}
+.player-section p,
+.computer-section p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.btn {
+    border-radius: 10px;
+    background-color:#393e46;
+    padding: 2rem;
+    margin: 1rem;  
+    transition:all .3s;
+}
+.btn:hover {
+    background-color:#4a4f57;
+}
+.btn:active {
+   background-color: #5b5f68;
+}
+.far,
+.fas {
+  font-size: 10rem;
+}
+
+.fas {
+  visibility: hidden;
+  pointer-events: none;
+}
+.fas.active {
+    visibility: visible;
+  }
+  @media (max-width: 550px) {
+    html {
+      font-size: 40%;
+    }
+  }
+  
